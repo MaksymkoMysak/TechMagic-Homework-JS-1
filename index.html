@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="script/index.js" async></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>First JS Homework</header>
+    <div class="container">
+      <div class="container__queue">
+        <ul class="container__queue__list"></ul>
+      </div>
+      <div class="container__inputBar">
+        <label for="name">Input:</label>
+        <form class="container__inputBar__form">
+          <input
+            type="text"
+            class="container__inputBar__form__textField"
+            name="name"
+            required
+            minlength="1"
+            size="10"
+          />
+          <input
+            class="container__inputBar__form__addButton"
+            type="submit"
+            value="Add"
+          /><br />
+        </form>
+        <button class="container__inputBar__removeButton" type="button">
+          Remove Element
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
